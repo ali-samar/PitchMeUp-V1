@@ -1,0 +1,314 @@
+$gristransparent:rgba(0,0,0,0.7);
+$blanc:white;
+$police:Open Sans Condensed;
+$orange:#FF5722;
+$aligne:inline-block;
+$nonaligne:inline;
+$gris:grey;
+
+html {
+
+	
+	background-image : no-repeat center fixed;
+	-webkit-background-size : cover;
+}
+
+body {
+	background-image : url(../pics/startup-593341.jpg);
+	background-size : cover;
+}
+
+.container {
+	
+}
+
+header {
+	background : $gristransparent;
+	
+
+	h1 {
+		
+		font-size : 3em;
+		color : $blanc;
+		text-transform : uppercase;
+		font-family : $police;
+		font-weight : lighter;
+		letter-spacing : 0.2em;
+	}
+
+	nav {
+	}
+
+	a {
+		color : $blanc;
+		font-size : 13px;
+	}
+
+	a:hover {
+		color : $orange;
+	}
+
+	a:active {
+		color : $orange;
+		text-decoration : underline;
+	}
+
+	li {
+	}
+}
+
+.blockcentral {
+
+	aside {
+		
+		background-color : $gristransparent;
+		border-radius : 5px;
+		line-height : 22px;
+		text-align : center;
+		color : $blanc;
+		font-family : $police;
+		font-size : 20px;
+		letter-spacing : 0.5em;
+		font-weight : lighter;
+	}
+}
+
+#date {
+	color : $orange;
+}
+
+#prochainmeetup{
+	font-family : $police;
+	font-size : 25px;
+}
+
+#inscription{
+	text-align : center;
+	color : $blanc;
+	font-family : $police;;
+	font-size : 30px;
+	letter-spacing : 0.1em;
+	line-height : 1.2em;
+	
+}
+
+#clic{
+	border :1px $blanc double;
+	border-radius : 3%;
+	
+}
+
+#start{
+	color : $orange;
+}
+
+#infos{
+
+	li {
+		
+		background-color : $gristransparent;
+		border-radius : 5px;
+		line-height : 25px;
+		
+		text-align : center;
+		font-size : 20px;
+		color : $blanc;
+		font-family : $police;
+	}
+}
+
+#pitchezamour{
+	font-size : 27px;
+	color : $orange;
+	font-style : oblique;
+}
+
+i{
+
+}
+
+#projets{
+	background-color : $gristransparent;
+	border-radius : 5px;
+	text-align : center;
+	color : $blanc;
+	font-size : 32px;
+	font-family : $police;
+	font-weight : lighter;
+}
+
+.casesprojets li {
+	background-color : $gristransparent;
+	border-radius : 5px;
+	line-height : 28px;
+	text-align : center;
+	color : $orange;
+	font-family : $police;
+	font-size : 30px;
+	letter-spacing : 0.4em;
+	font-weight : lighter;
+
+	p {
+		color : $blanc;
+		font-family : $police;
+		font-size : 20px;
+		letter-spacing: 0.3em;
+		font-weight: lighter;
+	}
+}
+
+#xpairs{
+	background-color : $gristransparent;
+	border-radius : 5px;
+	text-align : center;
+	color : $blanc;
+	font-family : $police;
+	font-size : 32px;
+	font-weight : lighter;
+}
+
+.sessions {
+	
+
+	li {
+		background-color : $gristransparent;
+		color : $blanc;
+		font-family : $police;
+		border-radius : 5px;
+		font-size : 20px;
+	}
+}
+
+.field p {
+	color : $blanc;
+}
+
+footer{
+	background-color : $gris;
+	color : $blanc;
+	font-family : $police;
+	text-align : center;
+	font-size : 20px;
+	background : $gristransparent;
+
+	a {
+		color : $blanc;
+	}
+}
+
+ul {
+	padding : 0px;
+	padding-top : 0.1em;
+
+	li {
+	list-style-type : none;
+	}
+}
+
+/*******formulaire********/
+
+form {
+	background-color: $gristransparent;
+	border-radius: 5px;
+}
+
+div label{
+	color : $blanc;
+}
+
+footer p{
+
+}
+
+/******Lieux******/
+
+.lieublock {
+	font-family: $police;
+	font-size: 2em;
+
+	div{
+		background:$gristransparent;
+		border-radius: 3px;
+		color: $blanc;
+		
+
+		li{
+			background:$gristransparent;
+			border-radius: 3px;
+		}
+
+		a{
+			color: $orange;
+		}
+
+	}
+}
+
+
+/******Meetup******/
+
+.containermeetup {
+	color: $blanc;
+	font-family: $police;
+
+	ul{
+		font-size : 20px;
+	}
+}
+
+.section1 {
+
+	li{
+		background:$gristransparent;
+		border-radius: 3px;
+	}
+
+	p{
+		
+	}
+}
+
+.section2 ul {
+	background:$gristransparent;
+	border-radius: 3px;
+	
+}
+
+.section3 {
+
+	li{
+		background : $gristransparent;
+		border-radius : 3px;
+	}
+
+	p {
+		
+	}
+}
+
+.section4 ul {
+	background:$gristransparent;
+	border-radius: 3px;
+	
+}
+
+.section5 {
+
+	li {
+		background:$gristransparent;
+		border-radius: 3px;
+	}
+	
+	p {
+
+	}
+}
+
+.section6 {
+	background:$gristransparent;
+	border-radius: 3px;
+	
+}
+
+// Importation fichier underscore
+@import 'responsive-mobile-lieux';

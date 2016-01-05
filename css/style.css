@@ -1,389 +1,205 @@
 html {
-	margin: 0;
-	padding: 0;
-	background-image:no-repeat center fixed;
-	-webkit-background-size: cover;
-}
+  background-image: no-repeat center fixed;
+  -webkit-background-size: cover; }
 
-body{
-	background-image: url(../pics/startup-593341.jpg);
-	background-size: cover;
-}
+body {
+  background-image: url(../pics/startup-593341.jpg);
+  background-size: cover; }
 
-/*
-background-image { 
-	display: block;
-	position: absolute;
-	top:0;
-	left:0;
-	width:100%;
-}*/
+header {
+  background: rgba(0, 0, 0, 0.7); }
+  header h1 {
+    font-size: 3em;
+    color: white;
+    text-transform: uppercase;
+    font-family: Open Sans Condensed;
+    font-weight: lighter;
+    letter-spacing: 0.2em; }
+  header a {
+    color: white;
+    font-size: 13px; }
+  header a:hover {
+    color: #FF5722; }
+  header a:active {
+    color: #FF5722;
+    text-decoration: underline; }
 
-.container {
-	margin-left: auto;
-	margin-right:auto;
-}
+.blockcentral aside {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+  font-family: Open Sans Condensed;
+  font-size: 20px;
+  letter-spacing: 0.5em;
+  font-weight: lighter; }
 
+#date {
+  color: #FF5722; }
 
-header{
+#prochainmeetup {
+  font-family: Open Sans Condensed;
+  font-size: 25px; }
 
-	background:rgba(0,0,0,0.6);
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;   
-	height: 70px;
-}
+#inscription {
+  text-align: center;
+  color: white;
+  font-family: Open Sans Condensed;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  line-height: 1.2em; }
 
-header h1{
-	display: inline-block;
-	margin-left: 50px;
-	font-size: 55px;
-	color: white;
-	text-transform: uppercase;
-	font-family: 'Open Sans Condensed';
-	font-weight: lighter;
-	letter-spacing: 0.2em;
-}
+#clic {
+  border: 1px white double;
+  border-radius: 3%; }
 
-header nav {
-	float: right;
-	padding: 0.6%;
-}
-
-header a{
-	color: white;
-	font-size: 13px;
-}
-
-a:hover{
-	color: #FF5722;
-}
-
-a:active{
-	color: #FF5722;
-	text-decoration: underline; 
-}
-
-header li{
-	display: inline-block;
-}
-
-.blockcentral{
-	display:inline-block;
-	position: absolute;
-	top:20%;
-	left:33%;
-}
-
-#date{
-	color: #FF5722;
-}
-
-
-.blockcentral aside{
-	height: 280px;
-	width: 500px;
-	background-color: rgba(0,0,0,0.7);
-	border-radius: 5px;
-	line-height:22px;
-	text-align: center;
-	color: white;
-	font-family: 'Open Sans Condensed';
-	font-size: 20px;
-	letter-spacing: 0.5em;
-	font-weight: lighter;
-}
-
-#prochainmeetup{
-	font-family: 'Open Sans Condensed';
-	font-size: 25px;
-}
-
-#inscription{
-	text-align: center;
-	color: white;
-	font-family: 'Open Sans Condensed';
-	font-size: 30px;
-	letter-spacing: 0.1em;
-	padding: 10px;
-	line-height: 1.2em;
-	width: 500px;
-	height: 500px;
-}
-
-#clic{
-	border:1px white double;
-	border-radius: 3%;
-	margin-right: 120px;
-	margin-left: 120px;
-	padding: 0.3px;
-}
-
-#start{
-	color: #FF5722;
-}
-
-#infos{
-	margin-left: -31%;
-	margin-right: 0;
-}
+#start {
+  color: #FF5722; }
 
 #infos li {
-	height: 210px;
-	width: 500px;
-	background-color: rgba(0,0,0,0.7);
-	border-radius: 5px;
-	line-height:25px;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 20px;
-	padding: 15px;
-	text-align: center;
-	font-size: 20px;
-	color: white;
-	font-family: 'Open Sans Condensed';
-}
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family: Open Sans Condensed; }
 
-#pitchezamour{
-	font-size: 27px;
-	color: #FF5722;
-	padding: 1px;
-	font-style: oblique;
-}
+#pitchezamour {
+  font-size: 27px;
+  color: #FF5722;
+  font-style: oblique; }
 
-i{
-	padding-top: -5px;
-	padding-left: 10px;
-}
-
-#projets{
-	background-color: rgba(0,0,0,0.8);
-	border-radius: 5px;
-	text-align: center;
-	color: white;
-	margin-top: 10%;
-	width: 30%;
-	height: 50px;
-	font-size: 32px;
-	font-family: 'Open Sans Condensed';
-	font-weight: lighter;
-	margin-right: auto;
-	margin-left: 34.5%;
-}
+#projets {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-family: Open Sans Condensed;
+  font-weight: lighter; }
 
 .casesprojets li {
-	height: 350px;
-	width: 30%;
-	background-color: rgba(0,0,0,0.8);
-	border-radius: 5px;
-	line-height:28px;
-	margin-top: 5%;
-	margin-right: 3.3%;
-	display: inline;
-	float: left;
-	padding: 20px;
-	text-align: center;
-	color:#FF5722;
-	font-family: 'Open Sans Condensed';
-	font-size: 30px;
-	letter-spacing: 0.4em;
-	font-weight: lighter;
-}
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  line-height: 28px;
+  text-align: center;
+  color: #FF5722;
+  font-family: Open Sans Condensed;
+  font-size: 30px;
+  letter-spacing: 0.4em;
+  font-weight: lighter; }
+  .casesprojets li p {
+    color: white;
+    font-family: Open Sans Condensed;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    font-weight: lighter; }
 
-.casesprojets li p {
-	color:white;
-	font-family: 'Open Sans Condensed';
-	font-size: 20px;
-	letter-spacing: 0.3em;
-	font-weight: lighter;
-}
+#xpairs {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-family: Open Sans Condensed;
+  font-size: 32px;
+  font-weight: lighter; }
 
-#xpairs{
-	background-color: rgba(0,0,0,0.8);
-	border-radius: 5px;
-	text-align: center;
-	color: white;
-	font-family: 'open Sans Condensed';
-	font-size: 32px;
-	margin-top: 10%;
-	font-weight: lighter;
-	width: 25%;
-	margin-right: auto;
-	margin-left: 36%;
-	
+.sessions li {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-family: Open Sans Condensed;
+  border-radius: 5px;
+  font-size: 20px; }
 
-}
+.field p {
+  color: white; }
 
-.sessions{
-	margin-top:5%;
-	margin-left: 10%;
-}
+footer {
+  background-color: grey;
+  color: white;
+  font-family: Open Sans Condensed;
+  text-align: center;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.7); }
+  footer a {
+    color: white; }
 
-.sessions li{
-	height: 300px;
-	width: 23%;
-	float: left;
-	display:inline;
-	background-color: rgba(0,0,0,0.8);
-	margin: 28px;
-	color:white;
-	font-family: 'Open Sans Condensed';
-	border-radius: 5px;
-	font-size: 20px;
-}
+ul {
+  padding: 0px;
+  padding-top: 0.1em; }
+  ul li {
+    list-style-type: none; }
 
-.field p{
-	color:white;
-}
-
-
-footer{
-	background-color: grey;
-	color:white;
-	font-family: 'Open Sans Condensed';
-	text-align: center;
-	font-size: 20px;
-	background: rgba(0,0,0,0.7);
-	width: 100%;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-}
-
-ul li {
-	list-style-type: none;
-	display: inline;
-	padding: 30px;
-}
-
-footer a {
-	color: white;
-}
-
-
-
-/********formulaire**********/
-
+/*******formulaire********/
 form {
-	background-color: rgba(0,0,0,0.7);
-    margin: 0 auto;
-    width: 40%;
-    height:560px;
-    margin-top: 6%;
-    padding: 1em;
-    border-radius: 5px;
-}
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px; }
 
-div label{
-	color:white;
-}
+div label {
+  color: white; }
 
-
-footer p {
-	display: inline;
-	padding: 30px;
-}
-
+/******Lieux******/
 .lieublock {
-	margin-top: 100px;
-	font-family: 'open sans Condensed';
-	font-size: 20px;
-}
+  font-family: Open Sans Condensed;
+  font-size: 2em; }
+  .lieublock div {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+    color: white; }
+    .lieublock div li {
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 3px; }
+    .lieublock div a {
+      color: #FF5722; }
 
-.lieublock li {
-	background:rgba(0,0,0,0.8);
-	margin-left: 100px;
-	display: inline-block;
-	border-radius: 3px;
-}
-.lieublock div {
-	background:rgba(0,0,0,0.8);
-	margin-left: 100px;
-	display: inline-block;
-	width: 360px;
-	margin-top: 20px;
-	border-radius: 3px;
-	padding: 5px;
-	color: white;
-	height: 400px;
-}
-.lieublock a {
-	color: #FF5722;
-}
+/******Meetup******/
 .containermeetup {
-	margin-right: auto;
-	margin-left: auto;
-	width: 90%;
-	display: inline;
-	color: white;
-	width: 940px;
-	font-family: 'open sans Condensed';
-}
-.containermeetup ul {
-	display: inline-block;
-	font-size: 20px;
+  color: white;
+  font-family: Open Sans Condensed; }
+  .containermeetup ul {
+    font-size: 20px; }
 
-}
-.section1 {
-	margin-top: 100px;
-	margin-left: 80px;
-}
 .section1 li {
-	background:rgba(0,0,0,0.7);
-	display: inline-block;
-	border-radius: 3px;
-}
-.section1 p {
-	width: 600px;
-	float: right;
-}
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px; }
+
 .section2 ul {
-	background:rgba(0,0,0,0.7);
-	border-radius: 3px;
-	margin-top: 0;
-	margin-right: 2px;
-	width: 79%;
-	margin-left: 100px;
-}
-.section3 {
-	margin-left: 80px;
-}
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px; }
+
 .section3 li {
-	background:rgba(0,0,0,0.7);
-	display: inline-block;
-	border-radius: 3px;
-}
-.section3 p {
-	width: 600px;
-	float: right;
-}
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px; }
+
 .section4 ul {
-	background:rgba(0,0,0,0.7);
-	border-radius: 3px;
-	margin-top: 0;
-	margin-right: 2px;
-	width: 79%;
-	margin-left: 100px;
-}
-.section5 {
-	margin-left: 80px;
-}
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px; }
+
 .section5 li {
-	background:rgba(0,0,0,0.7);
-	display: inline-block;
-	border-radius: 3px;
-}
-.section5 p {
-	width: 600px;
-	float: right;
-}
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px; }
+
 .section6 {
-	margin-bottom: 150px;
-	background:rgba(0,0,0,0.7);
-	border-radius: 3px;
-	margin-top: 0;
-	margin-right: 2px;
-	width: 79%;
-	margin-left: 100px;
-}
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px; }
+
+@media screen and (min-width: 940px) {
+  /******Lieux******/
+  .lieublock {
+    font-family: Open Sans Condensed;
+    font-size: 2em; }
+    .lieublock div {
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 3px;
+      color: white;
+      display: inline-block;
+      width: 49%;
+      height: 100%;
+      box-sizing: box-model; }
+      .lieublock div li {
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 3px; }
+      .lieublock div a {
+        color: #FF5722; } }

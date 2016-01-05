@@ -1,0 +1,34 @@
+@media screen and (min-width: 940px) {
+/******Lieux******/
+
+.lieublock {
+	font-family: $police;
+	font-size: 2em;
+
+	div{
+		background:$gristransparent;
+		border-radius: 3px;
+		color: $blanc;
+		display: $aligne;
+		width: 49%;
+		height: 100%;
+		box-sizing:box-model;
+
+		li{
+			background:$gristransparent;
+			border-radius: 3px;
+			//display: $aligne;
+		}
+		
+		a{
+			color: $orange;
+		}
+	}
+}
+	
+}
+
+@media screen and (min-width: 1400px) {
+
+
+}
